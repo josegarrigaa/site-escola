@@ -1,22 +1,14 @@
-header {background-color: rgb(207, 100, 100);}
-color:color withi
-display: flex;
-justify-content: space-around;}
-.cabecalho-imagem{width: 22%;}
-li {
-    display: inline-block;
-}
-h1{margin: 0 32px;
-padding: 90px 0;
-}round-color: rgb(247, 3, 3);
+header {background-color: rgb(3, 128, 150);
 color: black;
 display: flex;
 justify-content: space-around;}
-.cabecalho-imagem{width: 22%;}
-li {
+.imagens.cabecalho {width: 55%;}
+li{
     display: inline-block;
-}
-h1{
-    margin: 0 32px;
+    margin: 0 70px;
     padding: 90px 0;
+font-size: 20px;}
+
+.escola-imagem{
+    width:10%;
 }
