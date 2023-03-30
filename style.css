@@ -1,14 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 header {background-color: rgb(3, 128, 150);
 color: black;
 display: flex;
-justify-content: space-around;}
+justify-content: space-around;
+padding: 24px 0;}
 .imagens.cabecalho {width: 55%;}
 li{
     display: inline-block;
-    margin: 0 70px;
-    padding: 90px 0;
+    margin: 0 90px;
+    padding: 100px 0;
 font-size: 20px;}
 
+h1
+{
+    margin: 0 20px;
+    padding: 0 30px;
+    font-size: 30px;
+}
+
 .escola-imagem{
-    width:10%;
+    width:8%;
+}
+.escola{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.445), rgba(255, 0, 255, 0.377));
 }
