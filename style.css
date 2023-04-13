@@ -2,28 +2,94 @@
     margin: 0;
     padding: 0;
 }
-header {background-color: rgb(3, 128, 150);
-color: black;
+.cabecalho {background-color: rgb(245, 59, 59);
+color: rgb(253, 216, 216);
 display: flex;
-justify-content: space-around;
-padding: 24px 0;}
-.imagens.cabecalho {width: 55%;}
-li{
-    display: inline-block;
-    margin: 0 90px;
-    padding: 100px 0;
-font-size: 20px;}
+justify-content: space-evenly;
+padding: 20px;
+}
+body{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
-h1
+
+
+
+.cabecalho-imagem
 {
-    margin: 0 20px;
-    padding: 0 30px;
-    font-size: 30px;
+    width: 15%;
+    height: 20%;
 }
 
-.escola-imagem{
-    width:8%;
+li
+{
+    display: inline-block;
+ margin: 100px 16px;
+ padding: 30px 30px;
+ font-size: 18px;
 }
-.escola{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.445), rgba(255, 0, 255, 0.377));
+
+ .cabecalho-titulo
+ {
+    display: inline-block;
+    margin: 88px 60px;
+    padding: 30px 0;
+    font-size: 35px;
+ }
+
+.escola-titulo
+ {
+    display: inline-block;
+    margin: 5px 28px;
+    padding: 20px 0;
+    font-size: 40px;   
+ }
+
+.escola-texto1
+{
+margin: 7px 30px;
+padding: 4px 20px;    
+font-size: 20px;
+text-indent: 20px;
 }
+
+.escola-imagem
+{
+width: 22%;
+}
+
+.escola
+{
+background-image: linear-gradient(rgb(224, 25, 25),rgb(95, 87, 87));
+color: rgb(26, 3, 3);
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px 0;
+}
+
+ .escola-conteudo
+{
+    width: 40%;
+}
+.aluno2
+{text-align: center;
+    font-size: 45px; 
+}
+ .imagem-alunos
+ { 
+    width: 50%;
+    height: 60%;
+ }
+ .estudante-icone
+ {
+   width: 60px; 
+ }
+.estudante-div{
+    text-align: center;
+    display: inline-block;}
+
+
+.estudante-todos
+{ text-align: center;
+}
+.estudante-todos{display: grid;
+    grid-template-columns: 25% 25% 25% 25%;}
